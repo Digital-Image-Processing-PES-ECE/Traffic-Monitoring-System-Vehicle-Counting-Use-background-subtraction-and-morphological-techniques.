@@ -41,10 +41,52 @@
 ```python main.py (for eg.)```
 
 ### Outputs:
-* Important intermediate steps
-* Final output images 
+* Implementing Vehicle Counter (eg. real time video)
+*1.Install necessary libraries (opencv-python).
+*2.Initialize video capture (cv2.VideoCapture()).
+*3.Create a background subtractor (cv2.bgsegm.createBackgroundSubtractorMOG()).
+*4.Apply Gaussian blur and background subtraction to each frame.
+*5.Perform morphological operations (dilation and closing) on the frame.
+*6.Detect contours and draw rectangles around moving objects.
+*7.Calculate the center of the detected objects.
+*8.Check if the object crosses the counting line and update the vehicle count.
+*9.Display the vehicle counter on the video frame.
+*10.Show the processed video in a window and allow the user to exit.
+  
+* Final output images
+* INPUT FEED INTIALIZATION:
+![Input video image](https://github.com/user-attachments/assets/b0e5d69e-f439-4c13-8a8d-70e87a2eaaa9)
+* AFTER APPLING ROI ![ROI implementation image](https://github.com/user-attachments/assets/c3d50f05-ec21-4f0d-8cd0-62d72d9ffed1)
+* BACKGROUND SUBTRATION:
+* ON ENTIRE FEED ![Background subtration image](https://github.com/user-attachments/assets/e82035f2-1afe-49a1-989e-a64e3f72e992)
+* ON SPECIFIED ROI ![Background subtration on ROI image](https://github.com/user-attachments/assets/59670ffd-f6e6-4924-8c0d-1278014d5cd3)
+* INITIALIZING A COUNTER LINE ![Implementation of a count line](https://github.com/user-attachments/assets/dc02c563-fc35-4745-8717-f6d6c9bbdc0a)
+* IMPLEMENTATION OF CONTOUR AROUND VEHICLE ![Implemetation of contour(rectangle)](https://github.com/user-attachments/assets/fe269c40-6d25-4837-968c-2caf1be8a321)
+* FINAL OUTPUT IF ALL OPERATIONS APPLIED ON THE ENTIRE FEED ![Implementation of a vehicle counter](https://github.com/user-attachments/assets/32db764c-337e-4d2e-b98c-7b5d33163574)
+* FINAL OUTPUT IF ALL OPERATIONS APPLIES ON SPECIFIED ROI ![Implementation of a vehicle counter in ROI](https://github.com/user-attachments/assets/fa925348-f0ce-4bc1-b746-6de82ee0a034)
+
+
+
+
+
 
 ### References:
 1. Kaggle
    
 ### Limitations and Future Work:
+*Real-Time Vehicle Classification.
+*Speed Detection.
+*Multiple Camera Integration.
+*Cloud Integration for Data Analysis.
+*Real-Time Traffic Management System.
+*Integration with License Plate Recognition.
+*Enhanced ROI Detection.
+*Use of Drones for Surveillance.
+*Limited Detection Accuracy.
+*Dependence on Video Quality.
+*Sensitivity to Camera Position.
+*Background Interference.
+*Limited to Roadways.
+*Hardware Limitations.
+*Weather and Environmental Factors.
+*Computational Complexity.
