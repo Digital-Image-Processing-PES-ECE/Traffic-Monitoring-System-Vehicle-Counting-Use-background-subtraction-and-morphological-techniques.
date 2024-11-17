@@ -28,7 +28,7 @@
 
 ### Steps:
 1. Clone Repository
-```git clone https://github.com/Digital-Image-Processing-PES-ECE/project-name.git ```
+```git clone https://github.com/Digital-Image-Processing-PES-ECE/Traffic-Monitoring-System-Vehicle-Counting.git ```
 
 2. Install Dependencies
 
