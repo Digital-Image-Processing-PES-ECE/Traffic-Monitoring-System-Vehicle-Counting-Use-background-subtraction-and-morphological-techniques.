@@ -74,19 +74,4 @@
 1. Kaggle
    
 ### Limitations and Future Work:
-*Real-Time Vehicle Classification.
-*Speed Detection.
-*Multiple Camera Integration.
-*Cloud Integration for Data Analysis.
-*Real-Time Traffic Management System.
-*Integration with License Plate Recognition.
-*Enhanced ROI Detection.
-*Use of Drones for Surveillance.
-*Limited Detection Accuracy.
-*Dependence on Video Quality.
-*Sensitivity to Camera Position.
-*Background Interference.
-*Limited to Roadways.
-*Hardware Limitations.
-*Weather and Environmental Factors.
-*Computational Complexity.
+*Real-Time Vehicle Classification, Speed Detection, Multiple Camera Integration, Cloud Integration for Data Analysis, Real-Time Traffic Management System, Integration with License Plate Recognition, Enhanced ROI Detection, Limited Detection Accuracy, Dependence on Video Quality, Sensitivity to Camera Position, Background Interference, Limited to Roadways, Hardware Limitations, Weather and Environmental Factors, Computational Complexity.
